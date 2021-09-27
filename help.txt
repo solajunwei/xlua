@@ -1,0 +1,17 @@
+
+
+git config --global user.name "name"   //设置用户名
+
+
+git config --global user.email "email@qq.com" //设置用户邮箱
+
+
+git init          //建立仓库
+
+git remote add origin+你的库链接 
+
+git add .      //  这个命令会把当前路径下的所有文件添加到待上传的文件列表中。如果想添加某个特定的文件，只需把 . 换成特定的文件名即可
+
+git commit -m "这里写上提交的注释"
+
+git push -u origin master 
